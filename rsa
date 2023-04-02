@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-# is a factors challenge
-
+#is a challenge
 check_factor()
 {
 	if [ $# -ne 3 ];
@@ -35,7 +34,7 @@ check_factor()
 
 if [ $# -ne 1 ]
 then
-        echo 'Usage: factors <file>'
+        echo 'Usage: rsa <file>'
         exit 1
 else
 
