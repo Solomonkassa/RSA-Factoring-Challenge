@@ -1,5 +1,5 @@
-#!/usr/bin/env bash
-# Factorize as many numbers as possible into a product of two smaller numbers.
+#!/usr/bin/python3
+from factors_functions import *
+if __name__ == '__main__':
 
-gcc factors.c -o a
-./a $1
+    print(unix_time(print_factors))
